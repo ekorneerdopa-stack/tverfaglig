@@ -45,6 +45,30 @@ a {
 }
 
 
+.footer {
+ display: flex;
+  justify-content: space-evenly;
+  background-color: #bdbdbd;
+  width: 100%;
+  align-items: center;
+}
+
+.footer a {
+ color:#000000;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-family: "knewave";
+}
+
+.footer a:hover {
+  background-color: #808080;
+}
+
+
+
+
+
 
 
 

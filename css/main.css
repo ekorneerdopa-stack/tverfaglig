@@ -18,6 +18,7 @@ body {
   padding: 14px 20px;
   text-decoration: none;
   border-radius: 30px;
+  font-family: "knewave";
 }
 
 
@@ -38,6 +39,10 @@ a {
     width: 130px;
 }
 
+@font-face {
+  font-family: "knewave";
+  src: url("../font/Knewave-Regular.ttf");
+}
 
 
 

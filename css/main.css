@@ -98,10 +98,41 @@ background-color: #F8A253;
 
 .content {
 background-color: #d9d9d9;
-
-
-
+padding: 40px 130px;
 }
+
+.row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+}  
+
+.text a {
+display: inline-block;
+margin-top: 10px;
+background-color: #f6851f;
+color: white;
+padding: 8px 15px;
+text-decoration: none;
+border-radius: 15px;
+}
+
+.text a:hover {
+  background-color: #F8A253;
+}
+
+
+.box {
+width: 23%;
+  max-height: 300px;
+  background-color: #f6851f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
 
 
 

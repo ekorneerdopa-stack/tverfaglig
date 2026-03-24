@@ -98,7 +98,7 @@ background-color: #F8A253;
 
 .content {
 background-color: #d9d9d9;
-padding: 40px 130px;
+padding: 40px 410px;
 }
 
 .row {
@@ -133,6 +133,12 @@ width: 23%;
   color: black;
 }
 
+.text {
+scale: 1,1;
+font-weight: bold;
+
+
+}
 
 
 

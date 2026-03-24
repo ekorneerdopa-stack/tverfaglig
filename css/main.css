@@ -66,8 +66,42 @@ a {
 }
 
 
+.hero {
+background-color: #d9d9d9;
+text-align: center;
+padding: 25px 20px;
+}
 
 
+.hero h1 {
+font-size: 40px;
+margin-bottom: 25px;
+}
+
+.hero p {
+max-width: 500px;
+margin: 0 auto 20px;
+}
+
+.hero-buttons a {
+background-color: #f6851f;
+color: #ffffff;
+padding: 10px 20px;
+margin: 5px;
+text-decoration: none;
+border-radius: 15px;
+}
+
+.hero-buttons a:hover {
+background-color: #F8A253;
+}
+
+.content {
+background-color: #d9d9d9;
+
+
+
+}
 
 
 

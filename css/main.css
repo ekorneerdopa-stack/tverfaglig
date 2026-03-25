@@ -133,6 +133,8 @@ width: 23%;
   color: black;
 }
 
+
+
 .text {
 scale: 1,1;
 font-weight: bold;
@@ -142,6 +144,67 @@ font-weight: bold;
 
 
 
+/* quiz" */
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+  padding: 20px;
+  font-weight: bold
+}
 
 
+.quiz {
+  counter-reset: score;
+  text-align: center;
+  
+}
+
+
+.correct:checked {
+  counter-increment: score;
+}
+
+
+#result {
+  display: none;
+}
+
+
+#result:checked ~ .result::after {
+  content: counter(score) "/10 riktig";
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.question {
+  margin-bottom: 20px;
+ 
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-inline: 550px;
+  background: #fff200;
+  } 
+
+.btn {
+  padding: 15px;
+  background: #f6851f;
+  color: white;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.btn:hover {
+background-color: #F8A253;
+}
+ 
+
+
+
+
+
+/* quiz" */
 

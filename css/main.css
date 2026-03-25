@@ -10,8 +10,7 @@ body {
   background-color: #003366;
   width: 100%;
   align-items: center;
-    /* padding: 45px 0px; */
-}
+   }
 
 .navbar a {
   color:#f6851f;
@@ -42,7 +41,7 @@ a {
 @font-face {
   font-family: "knewave";
   src: url("../font/Knewave-Regular.ttf");
-}
+  }
 
 
 .footer {
@@ -74,7 +73,7 @@ padding: 25px 20px;
 
 
 .hero h1 {
-font-size: 40px;
+font-size: 67px;
 margin-bottom: 25px;
 }
 
@@ -149,7 +148,7 @@ font-weight: bold;
 body {
   font-family: Arial, Helvetica, sans-serif
   padding: 20px;
-  font-weight: bold
+  font-weight: bold;
 }
 
 
@@ -182,10 +181,11 @@ body {
 .question {
   margin-bottom: 20px;
  
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-inline: 550px;
+  border: 2px solid black;
+  padding: 15px;
+  margin-inline: 480px;
+  margin-bottom: 15px;
+  border-radius: 25px;
   background: #fff200;
   } 
 
@@ -201,10 +201,17 @@ body {
 background-color: #F8A253;
 }
  
+/* quiz slutt" */
 
+h1 {
+text-align: center;
+font-family: "knewave";
+color: #f6851f;
+font-weight: 900;
+}
 
+#quizfont { 
+  font-size: 60px;
+}
 
-
-
-/* quiz" */
 

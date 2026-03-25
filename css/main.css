@@ -89,6 +89,7 @@ padding: 10px 20px;
 margin: 5px;
 text-decoration: none;
 border-radius: 15px;
+box-shadow: 0 5px 10px rgba(0,0,0,1.3);
 }
 
 .hero-buttons a:hover {
@@ -115,6 +116,7 @@ color: white;
 padding: 8px 15px;
 text-decoration: none;
 border-radius: 15px;
+box-shadow: 0 5px 10px rgba(0,0,0,1.3);
 }
 
 .text a:hover {
@@ -155,6 +157,7 @@ body {
 .quiz {
   counter-reset: score;
   text-align: center;
+   transform: translateY(-50px);
   
 }
 
@@ -180,25 +183,27 @@ body {
 
 .question {
   margin-bottom: 20px;
- 
   border: 2px solid black;
   padding: 15px;
   margin-inline: 480px;
   margin-bottom: 15px;
   border-radius: 25px;
   background: #fff200;
+  box-shadow: 0 5px 10px rgba(0,0,0,1.3);
   } 
 
 .btn {
+  margin-top: -10px;
   padding: 15px;
   background: #f6851f;
   color: white;
   display: inline-block;
   border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,1.3);
 }
 
 .btn:hover {
-background-color: #F8A253;
+background-color: #F8A253;  
 }
  
 /* quiz slutt" */

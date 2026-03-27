@@ -361,16 +361,16 @@ input:checked + .btn + .answer {
 
 .laget-av-content h1 {
   font-size: 2.5rem;
-  margin-bottom: 235px;
+  margin-bottom: 70px;
 }
 
 .laget-av-content h2 {
   color: #f6851f;
-  margin-bottom: 15px;
+  margin-bottom: 70px;
 }
 
 .laget-av-content p {
-  margin-bottom: 15px;
+  margin-bottom: 70px;
   line-height: 1.6;
 }
 

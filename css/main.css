@@ -259,29 +259,182 @@ font-weight: 900;
   margin-bottom: 55px;
 }
 
-/* skjul checkbox */
+
 input[type="checkbox"] {
   display: none;
 }
 
-/* skjul svar */
+
 .answer {
   display: none;
   font-weight: bold;
   margin-top: 10px;
 }
 
-/* vis svar når man trykker */
+
 input:checked + .btn + .answer {
   display: block;
 }
 
-/* knapp */
+
 .btn {
-  background: orange;
+  background: #f6851f;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
   display: inline-block;
   margin-top: 10px;
+}
+
+
+.grafikk-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+
+.logo-section {
+    margin-bottom: 175px;
+}
+
+.logo-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.cmyk-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* cmyk fargene */
+.oransje {
+    background: #f6851f;
+} 
+
+
+
+.yellow {
+    background: #fff200;
+}
+
+.black {
+    background: #231f20;
+    color: white;
+}
+
+
+.laget-av-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;¨
+ }
+
+.laget-av-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.laget-av-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 235px;
+}
+
+.laget-av-content h2 {
+  color: #f6851f;
+  margin-bottom: 15px;
+}
+
+.laget-av-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.kontakt-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.kontakt-content {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.kontakt-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.kontakt-content p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.kontakt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.kontakt-form input,
+.kontakt-form textarea {  
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.kontakt-form input:focus,
+.kontakt-form textarea:focus {
+  outline: none;
+  border-color: #f6851f;
+}
+
+.kontakt-form button {
+  padding: 12px;
+  border: none;
+  background-color: #f6851f;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.kontakt-form button:hover {
+  background-color: #f6851f;
+}
+
+.kontakt-info {
+  margin-top: 30px;
+}
+
+.kontakt-info h3 {
+  margin-bottom: 10px;
 }
